@@ -1,0 +1,100 @@
+/* PC */
+@media (min-width: 64em) {
+    
+}
+
+/* TABLET + MOBILE*/
+@media (max-width: 63.9375em) {
+    .subnav > li >a {
+        line-height: 46px;
+    }
+
+    .buy-btn {
+        padding: 15px 16px;
+    }
+
+    .form-submit-btn {
+        padding: 16px 17px;
+    }
+
+    .form-control {
+        padding: 15px;
+    }
+
+    .contact .contact-info {
+        line-height: 2;
+    }
+
+    .connect-to {
+        font-size: 24px;
+        margin: 0px 16px;
+    }
+
+    .product a {
+        padding: 16px 0;
+        display: inline-block;
+    }
+}
+
+/* TABLET */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+}
+
+/* MOBILE */
+@media (max-width: 46.1875em) {
+    .s-col-full, 
+    .s-full-width {
+        width: 100%;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+
+    .s-mt-16 {
+        margin-top: 16px;
+    }
+
+    .s-mt-32 {
+        margin-top: 32px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .nav-insert {
+        display: block;
+    }
+
+    #header .nav-search .search-btn {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    .subnav > li > a {
+        padding: 2px 40px;
+        color: #fff;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #content .image-member {
+        width: 60%;
+    }
+}
